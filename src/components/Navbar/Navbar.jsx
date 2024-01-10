@@ -1,14 +1,24 @@
-import "./Navbar.css"
-import { Link } from 'react-router-dom';
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-      </ul>
+      <div className="Topo">
+        <div>
+          <img className="LogoRolex" src="../Logos/Rolex.png" />
+        </div>
+        <div>
+          <img className="LoginHome" src="../Logos/Perfil.png" />
+          <a>Login</a>
+        </div>
+      </div>
+      <div>
+        <ul>
+          <li>RELÓGIOS</li>
+          <li>SOBRE</li>
+          <li>DISTRIBUIDORAS</li>
+        </ul>
+      </div>
     </nav>
   );
 };
