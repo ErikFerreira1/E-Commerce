@@ -1,14 +1,41 @@
+
 .Topo {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 50px;
+}
+.Rolex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .LogoRolex {
-  display: block;
   width: 256px;
   height: 173px;
 }
-.LoginHome {
-    
-  width: 50px;
-  height: 50px;
+.Login {
+  display: flex;
+  justify-content: end;
+  
+
+  padding: 15px;
+  padding-right: 30px;
+}
+.LoginLogo {
+  width: 40px;
+  height: 40px;
+}
+.Login a {
+  padding-top: 6px;
+  text-decoration: none;
+  
+}
+.Category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+  
+  padding-top: 40px;
+  font-size: 19px;
+
 }
