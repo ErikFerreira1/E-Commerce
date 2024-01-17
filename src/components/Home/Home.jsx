@@ -19,14 +19,14 @@ const home = () => {
         <li>
         <div className="VoguezImage">
           <img src="../Images/Voguez.jpg"  />
-          <div className="VoguezDescription">
+        </div>
+        <div className="VoguezDescription">
               <h1>OSYRIS WATCH</h1>
               <h2>O MAIS NOVO E MODERNO</h2>
               <button type="button">
                 <a href="#">COMPRE AGORA</a>
               </button>
             </div>
-        </div>
         </li>
       </ul>
     </div>

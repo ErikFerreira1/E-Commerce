@@ -6,9 +6,9 @@
 }
 .OsyrisDescription {
   position: absolute;
-  top: 63%;
-  left: 13%;
-  transform: translate(-50%, -50%);
+  top: 600px;
+  left: 260px;
+  transform: translate(-160px, -90px);
 
   text-align: center;
   color: white;
@@ -53,12 +53,59 @@
   font-size: 15px;
 }
 .VoguezImage > img {
-  position: relative;
-  top: -17px;
+  position: absolute;
+  top: 939px;
+  transform: translate(0px, 0px);
   width: 100%;
-  overflow: hidden;
-  display: grid;
-  place-items: center;
+  
 
 }
+.VoguezDescription {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  height:790px;
+  
+  color: white;
+}
+.VoguezDescription > h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.VoguezDescription > h2 {
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 0%;
 
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.VoguezDescription > button {
+  width: 200px;
+  height: 46px;
+
+  border-radius: 18px;
+  background: linear-gradient(
+    180deg,
+    rgba(114, 113, 113, 0.42) 0%,
+    rgba(114, 113, 113, 0.35) 30.5%,
+    rgba(114, 113, 113, 0.37) 73.5%,
+    rgba(114, 113, 113, 0) 100%
+  );
+}
+.VoguezDescription > button:hover {
+  background: linear-gradient(
+    360deg,
+    rgba(114, 113, 113, 0.42) 0%,
+    rgba(114, 113, 113, 0.35) 30.5%,
+    rgba(114, 113, 113, 0.37) 73.5%,
+    rgba(114, 113, 113, 0) 100%
+  );
+}
+.VoguezDescription > button > a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
